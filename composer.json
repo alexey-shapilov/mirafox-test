@@ -1,0 +1,20 @@
+{
+    "name": "Mirafox test task",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "MirafoxTest\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*"
+    },
+    "authors": [
+        {
+            "name": "Alexey Shapilov",
+            "email": "shapilov@mail.ru"
+        }
+    ]
+}
